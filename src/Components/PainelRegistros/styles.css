@@ -1,0 +1,132 @@
+.home-main-diplay{
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    
+}
+
+.home-main-diplay-header {
+    display: flex;
+    
+    gap: 21px;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: #FAFAFA;
+    box-shadow: 0px 2px 11px 0px #0000001A;
+
+    height: 58px;
+    width: 950px;
+    border-radius: 10px;
+}
+
+.home-main-diplay-entries {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    height: 58px;
+    width: 950px;
+    
+    border-bottom: 1px solid #E0E0E0;
+}
+
+.width_padrao {
+    min-width: 150px;
+    word-wrap: break-word;
+    max-width: 150px;
+        
+    display: flex;
+    justify-content: center;
+
+}
+
+.padding_adicional {
+    padding-right: 25px;
+}
+
+.home-main-diplay-header span {
+
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #000000;
+}
+
+.home-main-diplay-entries-data {
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: black;
+}
+
+.home-main-diplay-entries-data_nome {   
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: black;
+}
+
+.home-main-diplay-entries-descricao {
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: black;
+}
+
+.home-main-diplay-entries-categoria {
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: black;
+}
+
+.home-main-diplay-entries-valor {
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+
+.cursor_pointer {
+    cursor: pointer;
+}
+
+.select_data_order {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    gap: 0.7vw;
+}
+
+.select_data_order-arrow_down {
+    height: 1vh;
+}
+
+.select_data_order-arrow_down-rotate {
+    height: 1vh;
+    transform: rotate(180deg);
+}
+
+    

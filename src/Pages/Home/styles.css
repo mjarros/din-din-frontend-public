@@ -1,0 +1,29 @@
+.home-header{
+    position: relative;
+
+    background: linear-gradient(90.23deg, #05EDE3 0.02%, #645FFB 99.63%);
+    width: 100vw;
+    height: 35vh;
+
+    z-index: 0;
+
+}
+
+.home-main{
+    position: relative;
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+
+    top: -17vh;
+    z-index: 1;
+
+    border-radius: 60px 60px 0px 0px;
+
+    padding: 10vh 5vw 0 5vw;
+
+    background-color: white;  
+}
+

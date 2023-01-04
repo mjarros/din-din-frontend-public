@@ -1,0 +1,200 @@
+
+.modal-background{
+
+    background-color: rgba(61, 61, 61, 0.48);
+
+    position: fixed;
+    z-index: 2;
+
+    top: 0;
+
+    min-height: 100vh;
+    min-width: 100vw;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.modal-container {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+
+    background-color: white;
+
+    padding: 5vh 5vw;
+
+    border-radius: 20px;
+}
+
+.modal-container-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 100%;
+
+    margin-bottom: 2vh;
+}
+
+.modal-container-header h2 {
+    
+    font-family: Rubik;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+
+.modal-container-header-close_button {
+
+    height: 3vh;
+    cursor: pointer;
+}
+
+.modal-container-btns {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    margin-bottom: 2vh;
+}
+
+.modal-container-btns-btns {
+    all: unset;
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    font-family: Rubik;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: center;
+
+    color: white;
+
+    height: 10vh;
+    width: 15vw;
+    
+    border-radius: 5px;
+
+    cursor: pointer;
+
+    margin-top: 1vh;
+}
+
+.modal-container-inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+}
+
+.modal-container-inputs label {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0px;
+    text-align: left;
+
+    color: rgba(72, 72, 72, 1);
+
+    margin-top: 1vh;
+
+}
+
+.modal-container-inputs input, select {
+
+    all: unset;
+    box-sizing: border-box;
+
+    height: 8vh;
+    width: 30vw;
+    border-radius: 5px;
+
+    border: 1px solid rgba(85, 85, 85, 1);
+    color: #555555;
+
+    padding: 15px;
+
+    text-align: left;
+
+    margin-top: 1vh;
+
+    position: relative;
+}
+
+.modal-container-inputs label img {
+
+    height: 2vh;
+    width: 2vw;
+    position: absolute;
+
+    top: 50vh;
+    right: 36.5vw;
+
+
+}
+
+
+
+.modal-container-btn_confirmar {
+
+    all: unset;
+    box-sizing: border-box;
+
+    cursor: pointer;
+
+    background-color: #7978D9;
+    color: white;
+
+    text-align: center;
+
+    font-family: Rubik;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: center;
+
+    height: 7vh;
+    width: 15vw;
+
+    border-radius: 10px;
+
+    margin-top: 3vh;
+}
+
+.modal-container-error_msg {
+
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0px;
+    text-align: center;
+    
+    color: red;
+    
+    margin-top: 1vh;
+}

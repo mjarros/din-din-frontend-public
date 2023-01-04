@@ -1,0 +1,156 @@
+.home-main-container-resumo-adicionarRegistro {
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+
+}
+
+.home-main-resumo {
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+
+    height: 196px;
+    width: 236px;
+    
+    border-radius: 10px;
+
+    background-color: #FAFAFA;
+
+    box-shadow: 0px 2px 11px 0px #0000001A;
+
+    padding: 2vh 2.5vw;
+}
+
+.home-main-resumo h2 {
+
+    font-family: Rubik;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    margin-bottom: 3.5vh;
+
+}
+
+.home-main-container-resumo-adicionarRegistro button {
+    all: unset;
+    box-sizing: border-box;
+
+    background-color: #7978D9;
+    
+    font-family: Rubik;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: center;
+
+    color: white;
+
+    cursor: pointer;
+
+    height: 42px;
+    width: 236px;
+    border-radius: 5px;
+
+    margin-top: 2vh ;
+
+}
+
+.home-main-resumo-superior{ 
+
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-between;
+
+    width: 100%;
+
+}
+
+.home-main-resumo-superior-esquerda {
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: center;
+
+    font-family: Rubik;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    color: #2F2F2F;
+
+    gap: 1.5vh;
+}
+
+.home-main-resumo-superior-direita {
+    display: flex;
+    flex-direction: column;
+    align-items:flex-end;
+    justify-content: center;
+
+    font-family: Rubik;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 15px;
+    letter-spacing: 0px;
+    text-align: right;
+
+    gap: 1.5vh;
+}
+
+.home-main-resumo-superior-direita-entradas {
+
+    color: #645FFB;
+}
+
+.home-main-resumo-superior-direita-saidas {
+
+    color: #FA8C10;
+
+}
+
+.home-main-resumo-inferior {
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-between;
+
+    width: 100%;
+
+    margin-top: 4vh;
+}
+
+.home-main-resumo-inferior-saldo {
+
+    font-family: Rubik;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #2F2F2F;
+}
+
+.home-main-resumo-inferior-valor{ 
+
+    font-family: Rubik;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;  
+    letter-spacing: 0px;    
+    text-align: right;
+
+    color: #3A9FF1;
+
+}

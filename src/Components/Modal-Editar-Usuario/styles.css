@@ -1,0 +1,124 @@
+.modal-background-editarUsuario{
+
+    background-color: rgba(61, 61, 61, 0.48);
+
+    position: fixed;
+    z-index: 10;
+
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    min-height: 100vh;
+    min-width: 100vw;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.modal-container-editarUsuario {
+
+    position: fixed;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+
+    background-color: white;
+
+    padding: 5vh 5vw;
+
+    border-radius: 20px;
+
+    z-index: 4;
+
+}
+
+.modal-container-editarUsuario form{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-color: white;
+
+    padding: 3vh 0 3vh 0;
+
+    position: relative;
+}
+
+.modal-container-editarUsuario label {
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0px;
+    text-align: left;
+
+    display: flex;
+    flex-direction: column;
+
+    color: #484848;
+
+    margin-top: 1vh;
+}
+
+.modal-container-editarUsuario input {
+    all: unset;
+    box-sizing: border-box;
+
+    border: 1px solid #555555;
+
+    height: 48px;
+    width: 300px;
+    border-radius: 5px;
+
+    margin-top: 4px;
+
+    padding: 15px
+}
+
+.modal-container-editarUsuario button {
+
+    all: unset;
+    box-sizing: border-box;
+
+    background-color: #7978D9;
+    
+    font-family: Rubik;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: center;
+
+    color: white;
+
+    cursor: pointer;
+
+    height: 40px;
+    width: 300px;
+    border-radius: 5px;
+
+    margin-top: 30px;
+}
+
+.container-cadastro-msg_erro{
+
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0px;
+    text-align: center;
+
+    color: red;
+
+    margin-top: 1vh;
+}

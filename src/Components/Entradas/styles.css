@@ -1,0 +1,95 @@
+.modal-excluir_registro {
+ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 15vw;
+    height: 15vh;
+
+    background-color :#E4F2FD;
+
+    border-radius: 10px;
+
+    position: absolute;
+
+    z-index: 2;
+
+    right: 1vw;
+    top: 9vh;
+
+    padding: 17px;
+
+}
+
+.modal-excluir_registro-apagarItem {
+
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 12px;
+    letter-spacing: 0px;
+    text-align: center;
+
+    color: black;
+
+}
+
+.positio_relative {
+    position: relative;
+}
+
+.modal-excluir_registro-opcoes{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    gap: 0.5vw;
+}
+
+.modal-excluir_registro-opcoes-sim, .modal-excluir_registro-opcoes-nao {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    cursor: pointer;
+    
+}
+
+.modal-excluir_registro-opcoes {
+
+    font-family: Rubik;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 11px;
+    letter-spacing: 0px;
+    text-align: center;
+
+    color: white;
+
+    
+}
+
+.modal-excluir_registro-opcoes-sim {
+
+    background-color: #3A9FF1;
+    border-radius: 10px;
+
+    height: 5vh;
+    width: 5vw;
+}
+
+.modal-excluir_registro-opcoes-nao {
+
+    background-color: #FF576B;
+    border-radius: 10px;
+
+    height: 5vh;
+    width: 5vw;
+}
+
